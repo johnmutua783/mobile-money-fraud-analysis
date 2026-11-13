@@ -23,7 +23,6 @@ The analysis was guided by the following questions:
 
 - **MySQL** – data import, cleaning, validation, exploratory analysis, and advanced SQL analysis.
 - **Power BI Desktop** – data modelling, DAX measures, and dashboard development.
-- **Microsoft Excel / CSV** – source data handling, where applicable.
 
 ## Dataset
 
@@ -195,33 +194,6 @@ Based on the patterns observed in this dataset:
 
 These recommendations are based on patterns in a synthetic dataset and would need validation against real operational data before being used in a live fraud-monitoring environment.
 
-## Project Structure
-
-A suggested repository structure is:
-
-```text
-mobile-money-fraud-analysis/
-│
-├── data/
-│   └── README.md
-│
-├── sql/
-│   ├── 01_database_setup_and_import.sql
-│   ├── 02_data_quality_and_cleaning.sql
-│   ├── 03_exploratory_analysis.sql
-│   └── 04_advanced_fraud_analysis.sql
-│
-├── dashboard/
-│   └── mobile_money_fraud_dashboard.pbix
-│
-├── screenshots/
-│   ├── fraud_overview.png
-│   └── fraud_patterns_behaviour.png
-│
-└── README.md
-```
-
-Update the filenames to match the actual files in your repository. The raw dataset is not included in this suggested structure; if it is too large or has redistribution restrictions, provide instructions for obtaining it instead of committing it to GitHub.
 
 ## Conclusion
 
