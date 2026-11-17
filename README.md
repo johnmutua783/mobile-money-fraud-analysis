@@ -88,36 +88,17 @@ SQL was used to profile the data and answer the business questions. The analysis
 
 The simulated `step` field represents an hourly counter, not a real date or timestamp. For trend analysis, it was grouped into simulated days using 24 steps per day.
 
-### 2. Power BI Dashboard
+## Interactive Power BI Dashboard
 
-The Power BI report was kept to **two pages** to make the findings straightforward and easy to follow.
+Explore the interactive dashboard published on Power BI Service:
 
-#### Page 1 – Fraud Overview
+[View Mobile Money Fraud Dashboard](https://app.powerbi.com/groups/me/reports/a8356e5c-8aef-4d0b-ab3b-4c4d593730b0/87255f02d503500a0c7c?experience=power-bi)
 
-This page provides a high-level view of the dataset and the overall fraud situation.
+The dashboard presents an overview of fraud activity, transaction patterns,
+amount-based risk and balance behaviour.
 
-It includes:
-
-- Total transactions.
-- Fraudulent transactions.
-- Fraud rate.
-- Total fraud transaction value.
-- Fraudulent transaction counts by transaction type.
-- Fraud trends by simulated day.
-- A transaction-type slicer.
-
-#### Page 2 – Fraud Patterns & Behaviour
-
-This page explores patterns associated with fraudulent transactions.
-
-It includes:
-
-- Fraud rate by transaction amount range.
-- Fraud transaction value by transaction type.
-- Sender and recipient balance mismatch rates by transaction type.
-- A transaction-type slicer.
-
-The dashboard intentionally excludes a more complex matrix visual and a separate detection-effectiveness page in order to keep the report focused and accessible.
+**Note:** The dataset is synthetic. Transaction values are expressed in
+dataset units because the currency is not specified.
 
 ## Key Findings
 
